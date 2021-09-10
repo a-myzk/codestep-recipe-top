@@ -8,11 +8,14 @@ html {
 }
 body {
   color: #2b2a27;
-  font-size: 0.875rem;
+  font-family: "Helvetica Neue", "Arial", "Hiragino Sans", "Meiryo", sans-serif;
 }
 img {
   max-width: 100%;
 }
+.text {
+  text-align: center;
+margin-bottom: 80px;}
 
 /* main-visual
 ------------------------------------------- */
@@ -22,4 +25,11 @@ img {
   object-fit: cover;
   object-position: center top;
   margin-bottom: 80px;
+}
+
+/* text
+------------------------------------------- */
+.text .site-title {
+  margin-bottom: 20px;
+  font-weight: bold;
 }
