@@ -15,7 +15,11 @@ img {
 }
 .text {
   text-align: center;
-margin-bottom: 80px;}
+  margin-bottom: 80px;
+}
+ul {
+  list-style: none;
+}
 
 /* main-visual
 ------------------------------------------- */
@@ -32,4 +36,19 @@ margin-bottom: 80px;}
 .text .site-title {
   margin-bottom: 20px;
   font-weight: bold;
+}
+
+/* image
+------------------------------------------- */
+.recipe-image {
+  display: flex;
+  margin-bottom: 60px;
+}
+.recipe-image li {
+  width: calc(100% / 3);
+}
+.recipe-image li img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
 }
