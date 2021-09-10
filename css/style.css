@@ -20,9 +20,6 @@ img {
 ul {
   list-style: none;
 }
-a {
-  text-decoration: none;
-}
 
 /* main-visual
 ------------------------------------------- */
@@ -63,5 +60,25 @@ a {
   padding: 18px 60px;
   border: #2b2a27 solid 1px;
   font-size: 0.875rem;
+  color: #2b2a27;
+  text-decoration: none;
+}
+/* footer
+------------------------------------------- */
+#footer {
+  padding: 20px;
+  text-align: center;
+  font-size: 0.75rem;
+}
+#footer .sns-link {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+#footer .sns-link li {
+  margin: 0 10px;
+  color: #2b2a27;
+}
+#footer .sns-link li a {
   color: #2b2a27;
 }
