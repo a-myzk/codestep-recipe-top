@@ -111,5 +111,16 @@ dd {
 /* メディアクエリ
 ------------------------------------------- */
 @media screen and (max-width: 834px) {
-
+  .recipe-group {
+    flex-direction: column;
+  }
+  .recipe-image {
+    width: 100%;
+  }
+  .recipe-image img {
+    height: auto;
+  }
+  .recipe-body {
+    width: 100%;
+  }
 }
