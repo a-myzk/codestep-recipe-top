@@ -17,6 +17,36 @@ ul {
   list-style: none;
 }
 
+/* recipe-group
+------------------------------------------- */
+.recipe-group {
+  display: flex;
+  margin-bottom: 60px;
+}
+.recipe-image {
+  width: 50%;
+}
+.recipe-image img {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+  vertical-align: bottom;
+}
+.recipe-body {
+  width: 50%;
+  padding: 40px 5% 0 5%;
+}
+.recipe-title {
+  font-size: 1.75rem;
+  margin-bottom: 20px;
+}
+.content-title {
+  border-bottom: solid 1px #ccc;
+  font-size: 1.25rem;
+  margin: 40px 0 15px;
+  padding-bottom: 5px;
+}
+
 /* text
 ------------------------------------------- */
 .text {
@@ -26,6 +56,26 @@ ul {
 .text .site-title {
   margin-bottom: 20px;
   font-weight: bold;
+}
+.material-list{
+  display: flex;
+  flex-wrap: wrap;
+}
+dt {
+  border-bottom: dotted 1px #ccc;
+  width: 85%;
+  padding: 6px 0;
+}
+dd {
+  border-bottom: dotted 1px #ccc;
+  width: 15%;
+  text-align: right;
+  padding: 6px 0;
+}
+.cook-list li {
+  border-bottom: dotted 1px #ccc;
+  margin-left: 20px;
+  padding: 6px 0;
 }
 
 /* button
